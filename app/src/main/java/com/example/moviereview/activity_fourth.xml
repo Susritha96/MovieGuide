@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/download" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="412dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="306dp"
+        android:text="Hush"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Hush" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="406dp"
+        android:layout_height="342dp"
+        android:layout_marginTop="397dp"
+        android:text="A deaf writer who retreated into the woods to live a solitary life must fight for her life in silence when a masked killer appears in her window."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="A deaf writer who retreated into the woods to live a solitary life must fight for her life in silence when a masked killer appears in her window." />
+</android.support.constraint.ConstraintLayout>
