@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="416dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="484dp"
+        android:text="“Aquaman” is so much like parts of “Thor” and “Black Panther” and “Avatar” and so reliant upon an ancient British legend that you don’t know why the people who made this movie bothered."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="“Aquaman” is so much like parts of “Thor” and “Black Panther” and “Avatar” and so reliant upon an ancient British legend that you don’t know why the people who made this movie bothered." />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="363dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aquaman" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="397dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="388dp"
+        android:text="AQUAMAN"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
