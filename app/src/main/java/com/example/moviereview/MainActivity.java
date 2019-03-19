@@ -47,6 +47,19 @@ public class MainActivity extends AppCompatActivity {
         Intent ini=new Intent(this,SecondActivity.class);
         startActivity(ini);
     }
+    public void popularMovie(View v){
+        Intent ini=new Intent(this,ThirdActivity.class);
+        startActivity(ini);
+    }
+    public void topRated(View v){
+        Intent ini=new Intent(this,FourthActivity.class);
+        startActivity(ini);
+    }
+    public void favorite(View v){
+        Intent ini=new Intent(this,FifthActivity.class);
+        startActivity(ini);
+    }
+
 
 
 }

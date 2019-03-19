@@ -9,18 +9,18 @@
     <ListView
         android:id="@+id/lvMovies"
         android:layout_width="395dp"
-        android:layout_height="507dp"
+        android:layout_height="377dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="164dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="407dp"
-        android:layout_height="40dp"
+        android:layout_height="36dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="Movies List"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,14 +28,48 @@
         tools:text="Movies List" />
 
     <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="92dp"
+        android:onClick="topRated"
+        android:text="Top Rated"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="92dp"
+        android:onClick="favorite"
+        android:text="Favourite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="604dp"
-        android:onClick="movieDescription"
-        android:text="Button"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="92dp"
+        android:onClick="popularMovie"
+        android:text="popular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Select" />
+        tools:text="Popular" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="604dp"
+        android:onClick="movieDescription"
+        android:text="Submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Submit" />
 </android.support.constraint.ConstraintLayout>
