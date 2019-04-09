@@ -13,7 +13,7 @@ android {
         multiDexEnabled true
         javaCompileOptions {
             annotationProcessorOptions {
-                includeCompileClasspath true
+                includeCompileClasspath   true
             }
         }
     }
